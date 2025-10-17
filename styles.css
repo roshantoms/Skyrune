@@ -16,7 +16,6 @@ canvas{display:block;touch-action:none} /* avoid default touch gestures */
 .panel{background:rgba(0,0,0,0.85);color:#fff;padding:18px 22px;border-radius:12px;text-align:center;box-shadow:0 10px 30px rgba(0,0,0,0.5);border:1px solid rgba(255,255,255,0.1)}
 .panel b{display:block;font-size:20px;margin-bottom:6px}
 .score-badge{background:rgba(246,196,49,0.2);padding:4px 8px;border-radius:6px;margin:0 4px;border:1px solid rgba(246,196,49,0.4)}
-@media (max-width:520px){ .hud{left:10px;top:8px} .panel{width:86vw} }
 
 #logo {
     position: fixed;
@@ -36,7 +35,9 @@ canvas{display:block;touch-action:none} /* avoid default touch gestures */
     .panel{width:86vw} 
     /* Adjust logo size for smaller screens */
     #logo {
-        width: 180px; 
-        top: 6px;
+        position: fixed;
+        top: 120px;
+        left: 50%;transform: translateX(-50%);
+        width: 180px;
     }
 }
