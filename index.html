@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Skyrune</title>
+  <link rel="icon" href="logo.ico" type="image/x-icon"/>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <img id="logo" src="skyrune.png" alt="Skyrune Logo">
+  <div id="wrap"><canvas id="game"></canvas></div>
+
+  <div class="hud" id="hud">
+    <div class="item" id="distance">Distance: 0 m</div>
+    <div class="item" id="coins">Coins: 0</div>
+    <div class="item" id="highScore" style="opacity:0.6; font-size:12px; margin-top:20px;">High Score: 0 m</div>
+  </div>
+
+  <div class="overlay" id="overlay">
+    <div class="panel">
+      <b id="finalTitle">Game Over</b>
+      <div id="finalStats"></div>
+      <div style="margin-top:10px;font-size:13px;opacity:0.9">Press Space or Tap to restart</div>
+    </div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
