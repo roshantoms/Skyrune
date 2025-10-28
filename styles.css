@@ -19,7 +19,7 @@ canvas{display:block;touch-action:none} /* avoid default touch gestures */
 
 #logo {
     position: fixed;
-    top: 10px; /* Distance from the top */
+    top: 6px; /* Distance from the top */
     left: 50%;
     transform: translateX(-50%); /* Center the element horizontally */
     z-index: 55; /* Higher than HUD (50) but lower than overlay (60) */
